@@ -35,5 +35,9 @@ public class HomeController {
 		
 		return "home";
 	}
+	@RequestMapping(value="/jungwoo")
+	public String jungwoo() {
+		return "jungwoo";
+	}
 	
 }
