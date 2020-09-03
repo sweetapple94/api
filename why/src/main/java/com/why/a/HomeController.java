@@ -36,4 +36,8 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value="/joonsuk", method=RequestMethod.GET)
+	public String joonsuk() {
+		return "joonsuk";
+	}
 }
